@@ -835,6 +835,10 @@ section {
   .main-btn {
     margin: auto;
   }
+
+  .description {
+    font-size: .9rem;
+  }
 }
 @media screen and (max-width: 1432px) {
   .container {
