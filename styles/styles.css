@@ -7,8 +7,8 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #27AE60;
-  --color-white: #FFFFFF;
+  --color-secondary: #27ae60;
+  --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
@@ -18,12 +18,12 @@
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
-  --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
+  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
 }
 
 .light-mode {
-  --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-primary: #ffffff;
+  --color-secondary: #f56692;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -594,7 +594,8 @@ section {
 .contact-content-con .right-contact .input-control {
   margin: 1.5rem 0;
 }
-.contact-content-con .right-contact .input-control input, .contact-content-con .right-contact .input-control textarea {
+.contact-content-con .right-contact .input-control input,
+.contact-content-con .right-contact .input-control textarea {
   border-radius: 30px;
   font-weight: inherit;
   font-size: inherit;
@@ -725,6 +726,10 @@ section {
     padding-top: 3rem;
   }
 
+  .designation {
+    text-align: center;
+  }
+
   .header-content .left-header .image {
     margin: 0 auto;
     width: 90%;
@@ -826,6 +831,9 @@ section {
   }
   .main-title h2 .bg-text {
     font-size: 2.3rem;
+  }
+  .main-btn {
+    margin: auto;
   }
 }
 @media screen and (max-width: 1432px) {
@@ -932,6 +940,10 @@ section {
     text-align: center;
     padding-top: 3rem;
   }
+
+  .designation {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 700px) {
   .container {
@@ -963,15 +975,13 @@ section {
 
 /*# sourceMappingURL=styles.css.map */
 
-
 .dropbtn {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
 }
-
 
 .dropdown {
   position: relative;
@@ -983,10 +993,9 @@ section {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
-
 
 .dropdown-content a {
   color: black;
@@ -995,12 +1004,9 @@ section {
   display: block;
 }
 
-.pp{
-
-
+.pp {
   border-radius: 20px;
 }
-
 
 /* .bio{
 
@@ -1008,10 +1014,14 @@ text-align:right;
 
 } */
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
-
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
